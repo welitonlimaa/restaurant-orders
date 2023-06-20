@@ -1,5 +1,5 @@
 # Restaurant Orders
-Este é um projeto que consiste em uma ferramenta para construção de cardápios para o Restaurante Spaghetti Shrimp Chapa Quente Curry Shallow Pan of Food. A ferramenta permite gerar cardápios personalizados levando em consideração restrições alimentares dos clientes e a disponibilidade dos ingredientes em estoque.
+Este é um projeto que consiste em uma ferramenta para construção de cardápios para um restaurante. A ferramenta permite gerar cardápios personalizados levando em consideração restrições alimentares dos clientes e a disponibilidade dos ingredientes em estoque.
 
 ## Funcionalidades
 
