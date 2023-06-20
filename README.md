@@ -1,13 +1,25 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Restaurant Orders
+Este é um projeto que consiste em uma ferramenta para construção de cardápios para o Restaurante Spaghetti Shrimp Chapa Quente Curry Shallow Pan of Food. A ferramenta permite gerar cardápios personalizados levando em consideração restrições alimentares dos clientes e a disponibilidade dos ingredientes em estoque.
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+## Funcionalidades
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+* Geração de cardápios com base em restrições alimentares e estoque de ingredientes
+* Gestão de receitas e ingredientes
+* Controle de estoque de ingredientes
+* Consumo de ingredientes ao preparar uma receita
+  
+## Requisitos do Sistema
+Python 3.7 ou superior
+
+## Instalação
+1. Clone o repositório do projeto: git clone https://github.com/seu-usuario/restaurant-orders.git
+2. Navegue até o diretório do projeto: cd restaurant-orders
+3. Crie e ative um ambiente virtual (opcional, mas recomendado): python -m venv venv source venv/bin/activate
+4. Instale as dependências do projeto: pip install -r requirements.txt
+
+## Uso
+Execute o script principal para gerar um cardápio:
+python3 -m uvicorn app:app
+
+## Testes
+Para executar os testes automatizados, execute o seguinte comando: python3 -m pytest 
